@@ -1,0 +1,40 @@
+﻿生成启动时间为 2016/12/10 18:54:00。
+     1>项目“D:\My Documents\Documents\Github\LeetCode\220ContainsDuplicateIII\220ContainsDuplicateIII\220ContainsDuplicateIII.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\220ContainsDuplicateIII.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 220.cpp
+         220.cpp
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(9): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(12): error C2440: “初始化”: 无法从“std::_Tree_iterator<_Mytree>”转换为“int”
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<int,int,std::less<int>,std::allocator<std::pair<const int,int>>,false>>
+                 ]
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2784: “bool std::operator !=(const std::_Tree<_Traits> &,const std::_Tree<_Traits> &)”: 未能从“int”为“const std::_Tree<_Traits> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree(1879) : 参见“std::operator !=”的声明
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2784: “bool std::operator !=(const std::vector<_Ty,_Ax> &,const std::vector<_Ty,_Ax> &)”: 未能从“int”为“const std::vector<_Ty,_Ax> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(1494) : 参见“std::operator !=”的声明
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2784: “bool std::operator !=(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 未能从“int”为“const std::unique_ptr<_Ty,_Dx> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\memory(2572) : 参见“std::operator !=”的声明
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2784: “bool std::operator !=(const std::allocator<_Ty> &,const std::allocator<_Other> &) throw()”: 未能从“int”为“const std::allocator<_Ty> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xmemory(268) : 参见“std::operator !=”的声明
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2784: “bool std::operator !=(const std::reverse_iterator<_RanIt> &,const std::reverse_iterator<_RanIt2> &)”: 未能从“int”为“const std::reverse_iterator<_RanIt> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1348) : 参见“std::operator !=”的声明
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2784: “bool std::operator !=(const std::_Revranit<_RanIt,_Base> &,const std::_Revranit<_RanIt2,_Base2> &)”: 未能从“int”为“const std::_Revranit<_RanIt,_Base> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1168) : 参见“std::operator !=”的声明
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2784: “bool std::operator !=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)”: 未能从“int”为“const std::pair<_Ty1,_Ty2> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(310) : 参见“std::operator !=”的声明
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2677: 二进制“!=”: 没有找到接受“std::_Tree_iterator<_Mytree>”类型的全局运算符(或没有可接受的转换)
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<int,int,std::less<int>,std::allocator<std::pair<const int,int>>,false>>
+                 ]
+     1>d:\my documents\documents\github\leetcode\220containsduplicateiii\220containsduplicateiii\220.cpp(13): error C2227: “->first”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>已完成生成项目“D:\My Documents\Documents\Github\LeetCode\220ContainsDuplicateIII\220ContainsDuplicateIII\220ContainsDuplicateIII.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.59
